@@ -1,6 +1,7 @@
-bonjour
-int l1[] = {1, 38, 22, 29089, 2, 1, 222};
-int l2[] = {1, 38, 2232, 2, 19, 1000, 2909};
+# Implementation of the von-Neumann merge sort algorithm
 
-int l1[] = {1, 1, 2, 22, 38, 222, 29089}; len: 7
-int l2[] = {1, 2, 19, 38, 1000, 2232, 2909, 20000}; len: 8
+The merge sort algorithm is a divide and conquer algorithm which basically consists in the following steps:
+- Divide the input list into $n$ sublists of 1 element.
+- Repeatedly merge sublists to produce new sorted sublists
+
+We implement this recusrively
